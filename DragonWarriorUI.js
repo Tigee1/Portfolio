@@ -4,5 +4,5 @@ const northButton = document.getElementById("North");
 
 function moveNorth()
 {
-gameScreen.style.top = "50px";
+gameScreen.style.transform = "translateY(-50px)";
 } 
