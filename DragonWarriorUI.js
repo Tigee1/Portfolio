@@ -1,5 +1,5 @@
-const iFrame = document.getElementById("gameWindow").contentWindow;
-const gameScreen = iFrame.getElementById("gameWorldMap").style;
+const iFrame = document.getElementById("gameWindow").contentWindow.document.getElementById("gameWorldMap");
+const gameScreen = iFrame.style;
 const northButton = document.getElementById("North");
 
 alert(gameScreen)
