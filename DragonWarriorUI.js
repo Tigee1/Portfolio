@@ -4,6 +4,7 @@ const northButton = document.getElementById("North");
 
 function moveNorth()
 {
-alert('a')
-gameScreen.style.transform = "translateY(-50px)";
+try{gameScreen.style.transform = "translateY(-50px)";}
+catch(err)
+{console.error(err.message);}
 } 
