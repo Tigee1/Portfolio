@@ -1,8 +1,9 @@
-const iFrame = document.getElementById("gameWindow").contentWindow; //.document.getElementById("gameWorldMap").style;
+const iFrame = document.getElementById("gameWindow").contentWindow;
+const gameScreen = iFrame.getElementById("gameWorldMap").style;
 const northButton = document.getElementById("North");
 
-alert(iFrame)
+alert(gameScreen)
 function moveNorth()
 {
-iFrame.transform = "translateY(-50px)";
+gameScreen.transform = "translateY(-50px)";
 } 
