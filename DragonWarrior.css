@@ -1,0 +1,16 @@
+body
+{
+    overflow: hidden;
+}
+
+#gameWorldMap
+{
+    position: absolute;
+}
+
+#characterSprite
+{
+position: absolute;
+top: 50px;
+left: 28px;
+}
