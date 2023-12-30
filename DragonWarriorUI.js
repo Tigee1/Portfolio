@@ -14,7 +14,7 @@ function moveNorth()
 {
     gameScreen.transform = gameScreen.transform + "translateY(16px)";
     alert(characterSprite)
-    characterSprite = "https://youvebeenmaggled.com/Sprites/CharacterDown.png";  
+    characterSprite = "https://youvebeenmaggled.com/Sprites/CharacterUp.png";  
     alert(characterSprite)
 }
  
