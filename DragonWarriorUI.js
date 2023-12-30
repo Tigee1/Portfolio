@@ -9,13 +9,8 @@ const northButton = document.getElementById("North");
 
 function moveNorth()
 {
-    
     gameScreen.transition = "transform 5s linear";
-    gameScreen.transform = gameScreen.transform + "translateX(16px)";
-    gameScreen.webkitTransform = gameScreen.transform + "translateX(16px)";
-    gameScreen.MozTransform = gameScreen.transform + "translateX(16px)";
-    gameScreen.OTransform = gameScreen.transform + "translateX(16px)";
-    
+    gameScreen.transform = gameScreen.transform + "translateY(16px)";  
 }
  
 function moveWest()
