@@ -9,7 +9,9 @@ const northButton = document.getElementById("North");
 
 function moveNorth()
 {
-gameScreen.transform = gameScreen.transform + "translateY(16px)";
+setInterval(() => {
+  gameScreen.style.transform = "translateX(" + (16 * Math.floor(((1.0 / secPerInterval) * Math.random()))) + "px)";
+}, secPerInterval * 1000);
 } 
 
 function moveWest()
