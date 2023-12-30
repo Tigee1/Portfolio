@@ -4,7 +4,7 @@ const northButton = document.getElementById("North");
 iFrame.addEventListener("load", () => 
 {  
   const iFrameContext = iFrame.contentWindow;  
-  const gameScreen = iFrameContext.document.getElementById("gameWorldMap"); 
+  const gameScreen = iFrameContext.document.getElementById("gameWorldMap").style; 
   alert(gameScreen)
 });
 
