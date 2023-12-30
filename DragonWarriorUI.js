@@ -6,10 +6,10 @@ const northButton = document.getElementById("North");
    gameScreen = iFrame.document.getElementById("gameWorldMap").style; 
 });
 
+gameScreen.transition = "transform 0.5s linear";
 
 function moveNorth()
 {
-    gameScreen.transition = "transform 1s linear";
     gameScreen.transform = gameScreen.transform + "translateY(16px)";  
 }
  
