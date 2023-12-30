@@ -3,7 +3,8 @@ const northButton = document.getElementById("North");
 
   iFrame.addEventListener("load", () => 
 {  
-   gameScreen = iFrame.document.getElementById("gameWorldMap").style; 
+   gameScreen = iFrame.document.getElementById("gameWorldMap").style;
+   characterSprite =  iFrame.document.getElementById("characterSpriteDown").src;
    gameScreen.transition = "transform 0.5s linear";
 });
 
@@ -11,7 +12,8 @@ const northButton = document.getElementById("North");
 
 function moveNorth()
 {
-    gameScreen.transform = gameScreen.transform + "translateY(16px)";  
+    gameScreen.transform = gameScreen.transform + "translateY(16px)";
+    characterSprite = "CharacterUp.png";  
 }
  
 function moveWest()
