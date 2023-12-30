@@ -1,4 +1,4 @@
-const iFrame = document.getElementById("gameWindow");
+const iFrame = document.getElementById("gameWindow").contentWindow;
 const northButton = document.getElementById("North");
 
 (() => {
