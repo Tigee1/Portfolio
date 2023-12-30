@@ -10,7 +10,7 @@ const northButton = document.getElementById("North");
 function moveNorth()
 {
 setInterval(() => {
-  gameScreen.style.transform = "translateX(" + (16 * Math.floor(((1.0 / secPerInterval) * Math.random()))) + "px)";
+  gameScreen.style.transform = "translateX(" + (16 * Math.floor(((1.0 / 1.0) * Math.random()))) + "px)";
 }, secPerInterval * 1000);
 } 
 
