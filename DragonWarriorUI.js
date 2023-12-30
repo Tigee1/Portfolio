@@ -4,9 +4,10 @@ const northButton = document.getElementById("North");
   iFrame.addEventListener("load", () => 
 {  
    gameScreen = iFrame.document.getElementById("gameWorldMap").style; 
+   gameScreen.transition = "transform 0.5s linear";
 });
 
-gameScreen.transition = "transform 0.5s linear";
+
 
 function moveNorth()
 {
