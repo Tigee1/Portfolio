@@ -10,7 +10,7 @@ const northButton = document.getElementById("North");
 
 
 
-function moveNorth()
+function moveNorth(gameScreen)
 {
     gameScreen.transform = gameScreen.transform + "translateY(16px)";
     characterSprite.src = "Sprites/CharacterUp.png";  
