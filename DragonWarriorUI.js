@@ -14,7 +14,7 @@ function moveNorth()
 {
     gameScreen.transform = gameScreen.transform + "translateY(16px)";
     alert(characterSprite)
-    characterSprite = "CharacterUp.png";  
+    characterSprite = "Sprite/CharacterUp.png";  
     alert(characterSprite)
 }
  
