@@ -13,24 +13,23 @@ const northButton = document.getElementById("North");
 function moveNorth()
 {
     gameScreen.transform = gameScreen.transform + "translateY(16px)";
-    alert(characterSprite)
-    alert(characterSprite.src)
     characterSprite.src = "Sprites/CharacterUp.png";  
-    alert(characterSprite)
-    alert(characterSprite.src)
 }
  
 function moveWest()
 {
     gameScreen.transform = gameScreen.transform + "translateX(16px)";
+    characterSprite.src = "Sprites/CharacterLeft.png"; 
 } 
 
 function moveEast()
 {
     gameScreen.transform = gameScreen.transform + "translateX(-16px)";
+    characterSprite.src = "Sprites/CharacterRight.png"; 
 } 
 
 function moveSouth()
 {
     gameScreen.transform = gameScreen.transform + "translateY(-16px)";
+    characterSprite.src = "Sprites/CharacterDown.png"; 
 } 
