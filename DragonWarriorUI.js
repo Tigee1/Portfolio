@@ -1,5 +1,6 @@
 const iFrame = document.getElementById("gameWindow");
 const northButton = document.getElementById("North");
+const gameScreen;
 
 iFrame.addEventListener("load", () => 
 {  
@@ -12,4 +13,3 @@ function moveNorth()
 {
 gameScreen.transform = "translateY(-50px)";
 } 
-
