@@ -1,4 +1,4 @@
-const iFrame = document.getElementById("gameWindow").contentWindow.
+const iFrame = document.getElementById("gameWindow").contentWindow;
 
 iFrame.document.getElementById("gameWorldMap").addEventListener("load", myFunction);
 
