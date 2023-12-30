@@ -1,13 +1,15 @@
 const iFrame = document.getElementById("gameWindow");
 const northButton = document.getElementById("North");
-const gameScreen;
 
-iFrame.addEventListener("load", () => 
+(() => {
+  const gameScreen = null;
+
+  iFrame.addEventListener("load", () => 
 {  
-  const iFrameContext = iFrame.contentWindow;  
-  const gameScreen = iFrameContext.document.getElementById("gameWorldMap").style; 
-  alert(gameScreen)
+   gameScreen = iFrameContext.document.getElementById("gameWorldMap").style; 
+   console.log(gameScreen);
 });
+})();
 
 function moveNorth()
 {
