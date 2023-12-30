@@ -13,7 +13,9 @@ const northButton = document.getElementById("North");
 function moveNorth()
 {
     gameScreen.transform = gameScreen.transform + "translateY(16px)";
+    alert(characterSprite)
     characterSprite = "CharacterUp.png";  
+    alert(characterSprite)
 }
  
 function moveWest()
