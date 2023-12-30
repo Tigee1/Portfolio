@@ -6,11 +6,13 @@ body
 #gameWorldMap
 {
     position: absolute;
+    left: 96px;
+    top: 5px;
 }
 
 #characterSprite
 {
-position: absolute;
-top: 50px;
-left: 28px;
+    position: absolute;
+    top: 100px;
+    left: 209px;
 }
