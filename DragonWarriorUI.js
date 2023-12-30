@@ -4,7 +4,7 @@ const northButton = document.getElementById("North");
   iFrame.addEventListener("load", () => 
 {  
    gameScreen = iFrame.document.getElementById("gameWorldMap").style;
-   characterSprite =  iFrame.document.getElementById("characterSpriteDown").src;
+   characterSprite =  iFrame.document.getElementById("characterSpriteDown");
    gameScreen.transition = "transform 0.5s linear";
 });
 
@@ -14,8 +14,10 @@ function moveNorth()
 {
     gameScreen.transform = gameScreen.transform + "translateY(16px)";
     alert(characterSprite)
-    characterSprite = "https://youvebeenmaggled.com/Sprites/CharacterUp.png";  
+    alert(characterSprite.src)
+    characterSprite.src = "Sprites/CharacterUp.png";  
     alert(characterSprite)
+    alert(characterSprite.src)
 }
  
 function moveWest()
