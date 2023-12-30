@@ -5,6 +5,7 @@ iFrame.addEventListener("load", () =>
 {  
   const iFrameContext = iFrame.contentWindow;  
   const gameScreen = iFrameContext.document.getElementById("gameWorldMap"); 
+  alert(gameScreen)
 });
 
 function moveNorth()
