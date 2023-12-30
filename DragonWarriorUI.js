@@ -6,7 +6,7 @@ const northButton = document.getElementById("North");
 
   iFrame.addEventListener("load", () => 
 {  
-   gameScreen = iFrameContext.document.getElementById("gameWorldMap").style; 
+   gameScreen = iFrame.document.getElementById("gameWorldMap").style; 
    console.log(gameScreen);
 });
 })();
@@ -15,3 +15,4 @@ function moveNorth()
 {
 gameScreen.transform = "translateY(-50px)";
 } 
+
