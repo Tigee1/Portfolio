@@ -14,12 +14,12 @@ gameScreen.transform = gameScreen.transform + "translateY(50px)";
 
 function moveWest()
 {
-gameScreen.transform = gameScreen.transform + "translateX(-50px)";
+gameScreen.transform = gameScreen.transform + "translateX(50px)";
 } 
 
 function moveEast()
 {
-gameScreen.transform = gameScreen.transform + "translateX(50px)";
+gameScreen.transform = gameScreen.transform + "translateX(-50px)";
 } 
 
 function moveSouth()
