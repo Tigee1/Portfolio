@@ -11,7 +11,7 @@ function moveNorth()
 {
 setInterval(() => {
   gameScreen.style.transform = "translateX(" + (16 * Math.floor(((1.0 / 1.0) * Math.random()))) + "px)";
-}, secPerInterval * 1000);
+}, 1.0 * 1000);
 } 
 
 function moveWest()
