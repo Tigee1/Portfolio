@@ -11,10 +11,10 @@ function moveNorth()
 {
     
     gameScreen.transition = "transform 5s linear";
-    gameScreen.transform = gameScreen.style.transform + "translateX(16px)";
-    gameScreen.webkitTransform = gameScreen.style.transform + "translateX(16px)";
-    gameScreen.MozTransform = gameScreen.style.transform + "translateX(16px)";
-    gameScreen.OTransform = gameScreen.style.transform + "translateX(16px)";
+    gameScreen.transform = gameScreen.transform + "translateX(16px)";
+    gameScreen.webkitTransform = gameScreen.transform + "translateX(16px)";
+    gameScreen.MozTransform = gameScreen.transform + "translateX(16px)";
+    gameScreen.OTransform = gameScreen.transform + "translateX(16px)";
     
 }
  
