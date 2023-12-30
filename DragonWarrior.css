@@ -7,7 +7,7 @@ body
 {
     position: absolute;
     left: 96px;
-    top: 5px;
+    /*top: 5px;*/
 }
 
 #characterSprite
