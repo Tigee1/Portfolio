@@ -9,22 +9,24 @@ const northButton = document.getElementById("North");
 
 function moveNorth()
 {
-setInterval(() => {
-  gameScreen.transform = "translateX(" + (16 * Math.floor(((1.0 / 1.0) * Math.random()))) + "px)";
-}, 1.0 * 1000);
-} 
-
+  gameScreen.addStyleRule(
+    "transition: transform 1s linear",
+    { "transform": `translateX(16px)` },
+    { "will-change": "transform" }
+  );
+}
+ 
 function moveWest()
 {
-gameScreen.transform = gameScreen.transform + "translateX(16px)";
+    gameScreen.transform = gameScreen.transform + "translateX(16px)";
 } 
 
 function moveEast()
 {
-gameScreen.transform = gameScreen.transform + "translateX(-16px)";
+    gameScreen.transform = gameScreen.transform + "translateX(-16px)";
 } 
 
 function moveSouth()
 {
-gameScreen.transform = gameScreen.transform + "translateY(-16px)";
+    gameScreen.transform = gameScreen.transform + "translateY(-16px)";
 } 
