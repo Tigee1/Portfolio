@@ -1,3 +1,4 @@
+@media screen and (min-width: 1000px) {
 body
 {
     background-color: green;
@@ -38,24 +39,24 @@ body
 
 #compassBG
 {
-position: fixed;
-background-color: gray;
-left: 33%;
-margin-left: -25px;
-top: 77%;
-padding: 15px;
-height: 150px;
-width: 150px;
-border-radius: 45px;
-border: solid;
+    position: fixed;
+    background-color: gray;
+    left: 33%;
+    margin-left: -25px;
+    top: 77%;
+    padding: 15px;
+    height: 150px;
+    width: 150px;
+    border-radius: 45px;
+    border: solid;
 }
 
 .compassButton
 {
-height: 55px;
-width: 55px;
-border-radius: 12px;
-border: solid;
+    height: 55px;
+    width: 55px;
+    border-radius: 12px;
+    border: solid;
 }
 
 #North
@@ -83,4 +84,5 @@ border: solid;
     position: absolute;
     left: 65px;
     top: 115px;
+}
 }
