@@ -6,8 +6,8 @@ body
 #gameWorldMap
 {
     position: absolute;
-    left: -160px;
-    /*top: 5px;*/
+    left: -80px;
+    top: 5px;
 }
 
 #characterSpriteDown
