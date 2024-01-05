@@ -8,7 +8,7 @@ body
     #gameWorldMap
     {
         position: absolute;
-        left: -196px;
+        left: -201px;
         top: -88px;
     }
     
@@ -16,7 +16,7 @@ body
     {
         position: absolute;
         top: 100px;
-        left: 109px;
+        left: 114px;
     }
 }
 
